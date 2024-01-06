@@ -1,10 +1,9 @@
-import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home"
 import NoFound from "./pages/NoFound"
 import './App.css'
 
-export default function App () {
+const App = () => {
   return (
   <BrowserRouter>
     <Routes>
@@ -14,6 +13,6 @@ export default function App () {
   </BrowserRouter>
   )
 }
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
 
+
+export default App;
