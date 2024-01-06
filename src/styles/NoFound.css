@@ -1,0 +1,31 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: #0000; 
+    color: #ffbfbf; 
+  }
+  
+  .error-container {
+    text-align: center;
+  }
+  
+  .astronaut-container {
+    position: relative;
+  }
+  
+  .astronaut {
+    width: 200px; 
+  }
+  
+  .text-container {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    color: #fffb; 
+  }
+  
