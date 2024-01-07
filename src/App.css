@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-family: "roboto", sans-serif;
+  }
+  
+  body {
+    background: #37384b;
+    background-image: url(https://chicksgold.com/home/background.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+  }
