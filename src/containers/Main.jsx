@@ -8,6 +8,7 @@ const Main =() => {
         <div className="Main__container">
             <Filters />
             <CardsData />
+            
         </div>
     )
 }

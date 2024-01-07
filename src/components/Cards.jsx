@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/Card.css"
-import arrowWhite from "../assets/icons/arrow-white.svg";
+import "../styles/Card.css";
+
 import cart from "../assets/icons/cart.svg"
 
 const CardsItem = ({ product }) => {
@@ -15,7 +15,6 @@ const CardsItem = ({ product }) => {
         </div>
         <div>
           <input type="number" value="1"  />
-         
         </div>
       </div>
 

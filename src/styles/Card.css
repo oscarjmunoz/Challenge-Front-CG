@@ -37,7 +37,7 @@
       }
     }
 
-    div:last-child {
+      div:last-child {
       input {
         all: unset;
         width: 60px;
@@ -45,14 +45,13 @@
         border-radius: 2px;
         background-color: rgba(76, 96, 133, 0.6);
         padding: 4px 9px;
+        input[type=number]::-webkit-inner-spin-button, 
+        input[type=number]::-webkit-outer-spin-button { 
+        -webkit-appearance:textfield ; 
+        margin: 0; 
+        }
       }
     }
-  }
-
-  input[type=number]::-webkit-inner-spin-button, 
-  input[type=number]::-webkit-outer-spin-button { 
-    -webkit-appearance:textfield !important; 
-    margin: 0; 
   }
 
   .Card__title{
@@ -97,16 +96,15 @@
     div:nth-child(2) {
       h3 {
         color: white;
-        font-weight:10;
+        font-weight: 400;
+        display: flex;
+        flex-direction: row;
         margin-bottom: 5px ;
         text-decoration:line-through;
         text-decoration-color: red;
         text-decoration-thickness: 0.2rem;
-        position: relative;
-        top:-1.7rem;
-        right:-5.5rem
         
-
+        
       }
     }
 
