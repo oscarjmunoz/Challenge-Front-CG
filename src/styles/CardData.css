@@ -1,0 +1,38 @@
+.CardsData__container{
+    height: auto;
+    background-color: #303141;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding: 24px;
+
+
+.CardsData__items{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+}
+
+@media (min-width: 768px) {
+    display: grid;
+
+    .CardsData__items{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (min-width: 992px) {
+
+    padding: 48px;
+
+    .CardsData__items{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .CardsData__items{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+}

@@ -5,7 +5,7 @@ import Cards from "../components/Cards";
 const CardsData =() => {
     const cardsData ={
     image: "https://chicks-products.s3.amazonaws.com/80ed5e58-b04e-4594-a323-fc0aefbcdfa3",
-    title : "",
+    title : "Blue Partyhat",
     icon : "https://chicks-games.s3.amazonaws.com/e169c553-a9a1-45d9-bf71-a67ba12ada93",
     price: "450.00",
     discountedPrice: "520.50",
