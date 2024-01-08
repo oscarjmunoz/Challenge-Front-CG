@@ -11,7 +11,7 @@ const Filters = () => {
     return (
     
     <div className="filters__containers">
-    
+      
       <div className="filters__filters">
         <button className="filters__filters--game">
           <div>
@@ -43,6 +43,7 @@ const Filters = () => {
         </button>
       </div>
     </div>
+    
     )
   };
   

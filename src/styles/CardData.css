@@ -1,48 +1,45 @@
-.CardsData__container{
+.CardsData__container {
+    display: flex;
     height: auto;
     background-color: #303141;
-    width: 80%;
-    margin-left: 90px;
+    width: 93vw; 
+    margin-left: 8vw;
     border-radius: 5px;
-    padding: 60px;
-
-.CardsData__show-info{
-    color: white;
+    padding: 3.5vw; 
+    box-sizing: border-box; 
+    border: solid rgb(69, 88, 139);
+    box-shadow: 0 4px 8px rgba(34, 7, 150, 0.1); 
 }
 
-.CardsData__img{
-    
-    color: white;
-    margin-left: 70em;
-    background-color: #4c6085;
-    border-radius: 4px;
-}
-.CardsData__items{
+.CardsData__items {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 24px;
+    gap: 2vw; 
 }
 
 @media (min-width: 768px) {
-    display: grid;
+    .CardsData__container {
+        display: grid;
+    }
 
-    .CardsData__items{
-        grid-template-columns: repeat(2,1fr);
+    .CardsData__items {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (min-width: 992px) {
+    .CardsData__container {
+        padding: 4vw; 
+        margin: 0 1vw 0.5vw; 
+    }
 
-    padding: 48px;
-
-    .CardsData__items{
-        grid-template-columns: repeat(3,1fr);
+    .CardsData__items {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media (min-width: 1200px) {
-    .CardsData__items{
-        grid-template-columns: repeat(4,1fr);
+    .CardsData__items {
+        grid-template-columns: repeat(4, 1fr);
     }
-}
 }

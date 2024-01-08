@@ -4,9 +4,8 @@ import "../styles/Card.css";
 import cart from "../assets/icons/cart.svg"
 
 const CardsItem = ({ product }) => {
-  const { image, title, icon, price,discountedPrice, description } = product
-
-  return(
+  const { image, title, icon, price, discountedPrice, description } = product;
+  return (
     <div className="Card__container">
       <div className="Card__status">
         <div>
@@ -14,14 +13,12 @@ const CardsItem = ({ product }) => {
           <span>In stock</span>
         </div>
         <div>
-          <input type="number" value="1"  />
+          <input type="number" value={1} />
         </div>
       </div>
-
       <div className="Card__image">
         <img src={image} alt="" width="56" height="56" />
       </div>
-
       <div className="Card__title">
         <div>
           <h4>{title}</h4>
@@ -30,7 +27,6 @@ const CardsItem = ({ product }) => {
           <img src={icon} alt="" width="25" height="25" />
         </div>
       </div>
-
       <div className="Card__info">
         <div className="productCard__info--price">
           <h3>$ {price}</h3>
@@ -42,7 +38,6 @@ const CardsItem = ({ product }) => {
           <p>{description}</p>
         </div>
       </div>
-
       <div className="Card__buttons">
         <button className="Card__buttons--details">
           <span>DETAILS</span>
@@ -54,9 +49,8 @@ const CardsItem = ({ product }) => {
           </div>
         </button>
       </div>
-
     </div>
-  )
-}
+  );
+};
 
 export default CardsItem;

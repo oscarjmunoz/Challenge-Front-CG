@@ -7,7 +7,7 @@ import twitter from "../assets/img/twitter.svg";
 import discord from "../assets/img/discord.svg";
 import logo from "../assets/img/chicks-logo-large.svg";
 import startFull from "../assets/icons/star_full.svg";
-import startSemi from "../assets/icons/star_semisesqui.svg";
+import stars from "../assets/icons/stars.svg";
 
 const Footer = () =>  {
   return (
@@ -51,19 +51,16 @@ const Footer = () =>  {
             <a href="#">Copyright Policy</a>        
           </div>
           <div className="footer__links--trustpilot">
-            <a href="#">Trustpilot Reviews</a>
             <div className="footer__links--trustpilot__info">
-              <img src={startFull} alt="" />
-              <img src={startFull} alt="" />
-              <img src={startFull} alt="" />
-              <img src={startFull} alt="" />
-              <img src={startSemi} alt="" />
-              <p>4.8/5</p>
+              <img src={stars} alt="" />
+            <a href="#">Trustpilot Reviews</a>
+              
+              
             </div>
           </div>
         </div>
         <div className="footer__copyright">
-          <p>© 2017 - 2024 Chicksgold.com. All Rights Reserved</p>
+          <p>© 2017 - 2023 Chicksgold.com. All Rights Reserved</p>
         </div>
       </div>
     </div>
