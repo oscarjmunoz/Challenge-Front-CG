@@ -1,12 +1,22 @@
 .CardsData__container{
     height: auto;
     background-color: #303141;
-    width: 100%;
-    margin: 20px auto;
+    width: 80%;
+    margin-left: 90px;
     border-radius: 5px;
-    padding: 24px;
+    padding: 60px;
 
+.CardsData__show-info{
+    color: white;
+}
 
+.CardsData__img{
+    
+    color: white;
+    margin-left: 70em;
+    background-color: #4c6085;
+    border-radius: 4px;
+}
 .CardsData__items{
     display: grid;
     grid-template-columns: repeat(1, 1fr);

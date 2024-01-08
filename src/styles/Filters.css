@@ -1,12 +1,18 @@
 .filters__containers {
-    width: 100%;
+    width: 80%;
     color: white;
-  
-    .filters__filters {
+    margin-top: 10rem;
+    margin-left: 5.6rem;
+    margin-bottom: 0.8rem;
+    
+    h3{
+      font-size: 30px;
+    }
+      .filters__filters {
       width: 100%;
       height: auto;
       margin-top: 5px;
-  
+    
       button {
         all: unset;
         display: flex;
@@ -25,13 +31,17 @@
           img{
             margin: 0 24px;
           }
-  
+          
           span {
             width: 108px;
             height: 100%;
           }
+           
         }
-  
+        ruby{
+          font-size: 1em;
+          
+        }
         img {
           margin: 0 24px;
         }
@@ -40,7 +50,7 @@
   
     .filters__filters:last-child {
       display: flex;
-  
+      
       button {
         
         span {

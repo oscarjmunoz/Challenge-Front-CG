@@ -1,4 +1,6 @@
 import React from "react";
+import filter from "../assets/icons/filter.svg"
+import arrowWhite from "../assets/icons/arrow-white.svg"
 import "../styles/CardData.css"
 import Cards from "../components/Cards";
 
@@ -14,18 +16,19 @@ const CardsData =() => {
 
 return(
     <div className="CardsData__container">
-    <div className="CardsData__items">
-        <Cards product={cardsData} />
-        <Cards product={cardsData} />
-        <Cards product={cardsData} />
-        <Cards product={cardsData} />
-        <Cards product={cardsData} />
-        <Cards product={cardsData} />
-        <Cards product={cardsData} />
-        <Cards product={cardsData} />
-        <Cards product={cardsData} />
-        <Cards product={cardsData} />
+    <div className="CardsData__show-info">Showing 10 of 120</div>
+    <button className="filters__filters--target">
+        <div>
+            <img src={filter} alt="" width="30" height="30" />
+            <ruby> All <rp>(</rp><rt>Item Type</rt><rp>)</rp> </ruby>
         </div>
+            <img src={arrowWhite} alt="" width="11" height="8" />
+    </button>
+    <div className="CardsData__items">
+                {[...Array(10)].map((_, index) => (
+                    <Cards key={index} product={cardsData} />
+                ))}
+            </div>
     </div>
 )
 }

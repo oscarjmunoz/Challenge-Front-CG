@@ -9,8 +9,9 @@ import feather from "../assets/icons/feather.svg";
 
 const Filters = () => {
     return (
-        
+    
     <div className="filters__containers">
+    
       <div className="filters__filters">
         <button className="filters__filters--game">
           <div>
@@ -28,20 +29,20 @@ const Filters = () => {
         <button className="filters__filters--price">
           <div>
             <img src={itemBag} alt="" width="30" height="30" />
-            <span>All</span>
+            
+            <ruby> All <rp>(</rp><rt>Price</rt><rp>)</rp> </ruby>
           </div>
           <img src={arrowWhite} alt="" width="11" height="8" />
         </button>
         <button className="filters__filters--target">
           <div>
             <img src={feather} alt="" width="30" height="30" />
-            <span>All</span>
+            <ruby> All <rp>(</rp><rt>Item Type</rt><rp>)</rp> </ruby>
           </div>
           <img src={arrowWhite} alt="" width="11" height="8" />
         </button>
       </div>
     </div>
-    
     )
   };
   

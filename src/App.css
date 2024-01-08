@@ -1,17 +1,23 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+.main__container {
+  width: 100%;
+  padding: 115px 20px 60px;
+  margin: 0 auto;
+    
+  @media (min-width: 576px) {
+    width: 538px;
   }
-  
-  html {
-    font-family: "roboto", sans-serif;
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    width: 562px;
   }
-  
-  body {
-    background: #37384b;
-    background-image: url(https://chicksgold.com/home/background.jpg);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 100vw auto;
+
+  @media (min-width:992px) {
+    width: 936px;
   }
+
+  @media (min-width: 1200px) {
+    width: 100%;
+    max-width: 1236px;
+    padding: 182px 0 80px;
+  }
+}
