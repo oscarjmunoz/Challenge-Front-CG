@@ -1,8 +1,37 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Challenge_Frontend_CG
 
-Currently, two official plugins are available:
+This project is a layout made in React of one of the pages of the ChicksGold website. It was created as a personal challenge to test my skills in React and creating web interfaces.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/oscarjmunoz/Challenge-Front-CG
+```
+
+Go to the project directory
+
+```bash
+  cd challenge_front_cg
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+
+## Demo
+
+https://challenge-front-cg.vercel.app/
+
